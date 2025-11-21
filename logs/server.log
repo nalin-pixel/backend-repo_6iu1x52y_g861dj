@@ -1,0 +1,27 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [144] using StatReload
+INFO:     Started server process [146]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:46026 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:59090 - "GET /api/demo/java HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59076 - "GET /api/demo/cpp HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59104 - "GET /api/options HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59090 - "GET /api/demo/cpp HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59076 - "GET /api/demo/java HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59104 - "GET /api/options HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59112 - "OPTIONS /api/price HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59104 - "OPTIONS /api/price HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59090 - "POST /api/price HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59112 - "POST /api/price HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33716 - "GET /api/options HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33732 - "GET /api/demo/java HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33738 - "GET /api/demo/cpp HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33716 - "GET /api/demo/cpp HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33732 - "GET /api/demo/java HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33738 - "GET /api/options HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33748 - "POST /api/price HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33716 - "POST /api/price HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39108 - "POST /api/price HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39118 - "POST /api/price HTTP/1.1" 200 OK
