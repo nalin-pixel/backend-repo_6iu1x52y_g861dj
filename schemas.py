@@ -41,6 +41,21 @@ class Product(BaseModel):
 # Add your own schemas here:
 # --------------------------------------------------
 
+class Build(BaseModel):
+    """
+    Saved bobber builds
+    Collection name: "build"
+    """
+    color: str = Field(..., description="Primary paint color")
+    seat: str = Field(..., description="Seat style")
+    bars: str = Field(..., description="Handlebar style")
+    exhaust: str = Field(..., description="Exhaust option")
+    tires: str = Field(..., description="Tire option")
+    total: float = Field(..., ge=0, description="Computed total price in USD")
+    currency: str = Field("USD", description="Currency code")
+    created_by: Optional[str] = Field(None, description="Optional identifier of the creator")
+    notes: Optional[str] = Field(None, description="Optional notes for this build")
+
 # Note: The Flames database viewer will automatically:
 # 1. Read these schemas from GET /schema endpoint
 # 2. Use them for document validation when creating/editing
